@@ -37,15 +37,16 @@
 - SM2
 
 ## 接口设计
-/v1/keys                                    POST
-/v1/key/{name}                              DELETE GET POST
-/v1/keys/metadata                           GET
-/v1/keys/names                              GET   
-/v1/keyversion/{versionName}                GET
-/v1/key/{name}/_currentversion              GET
-/v1/key/{name}/_eek                         GET
-/v1/key/{name}/_metadata                    GET
-/v1/key/{name}/_versions                    GET
-/v1/keyversion/{versionName}/_eek           POST
+> 接口设计参考[Apache Ranger](http://ranger.apache.org/)
+- /v1/keys                                    POST
+- /v1/key/{name}                              DELETE GET POST
+- /v1/keys/metadata                           GET
+- /v1/keys/names                              GET   
+- /v1/keyversion/{versionName}                GET
+- /v1/key/{name}/_currentversion              GET
+- /v1/key/{name}/_eek                         GET
+- /v1/key/{name}/_metadata                    GET
+- /v1/key/{name}/_versions                    GET
+- /v1/keyversion/{versionName}/_eek           POST
 
 ## 数据库设计
