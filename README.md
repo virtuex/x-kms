@@ -1,5 +1,5 @@
 # X-KMS密钥管理系统
-> 前端页面移步：https://github.com/virtuex/x-kms-ui
+> 前端页面移步：https://github.com/virtuex/x-kms-frontend
 - 基于BouncyCastle
 - 密钥保护：生成KMS的Master Key ，系统所有存储的密钥由Master Key保护
 - 密钥不落地：所有的密钥均不允许导出，所有运算使用密钥对应的索引进行运算
