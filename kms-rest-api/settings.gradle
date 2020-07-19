@@ -1,0 +1,3 @@
+rootProject.name = 'kms-rest-api'
+include 'kms-common'
+project(':kms-common').projectDir=file('../kms-common')
